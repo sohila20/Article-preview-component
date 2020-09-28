@@ -1,0 +1,58 @@
+body{
+    background-color: hsl(210, 46%, 95%);
+}
+.cards{
+    -webkit-box-shadow: 0 5px 11px 0 rgba(50, 50, 50, 0.08);
+    -moz-box-shadow: 0 5px 11px 0 rgba(50, 50, 50, 0.08);
+    box-shadow: 00 5px 11px 0 rgba(50, 50, 50, 0.08);
+    background-color: white;
+    width: fit-content;
+}
+.container{
+    margin-top: 175px;
+   
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: lightgray;
+} 
+.customdiv{
+    display: none;
+    
+}
+.popover{
+    background-color:  rgb(27, 27, 27);
+    color: white;
+    
+}
+
+.popover-body{
+    padding-right: 40px;
+    padding-left: 40px;
+  
+}
+.popover-body ul{
+    margin-bottom: 0px;
+    margin-top: 7px;
+    justify-content: space-around;
+}
+.bs-popover-auto[x-placement^=top]>.arrow::after, .bs-popover-top>.arrow::after {
+    border-top-color: rgb(27, 27, 27);
+}
+@media (max-width:767px){
+    .container{
+        margin-bottom: 200px;
+    }
+    .customdiv{
+        position:absolute;
+        top: 0px;
+        left: 0px;
+    }
+    footer .row{
+        position: relative;
+    }
+}
